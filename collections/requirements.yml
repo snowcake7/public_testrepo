@@ -1,0 +1,5 @@
+---
+collections:
+  - name: community.general
+    version: 9.0.1
+    source: https://hub.ansible.com/api/galaxy/content/community/
