@@ -1,0 +1,6 @@
+- name: Test collection
+  hosts: all
+  gather_facts: false
+  tasks:
+  - community.general.nginx_status_info:
+      url: http://localhost/nginx_status
